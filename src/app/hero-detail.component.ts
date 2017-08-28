@@ -15,7 +15,7 @@ to do with the rest of the code.
 Instructions:
 
 To move the hero detail view to the HeroDetailComponent, cut the hero detail content from the bottom of the AppComponent template and paste it into a new template property in the @Component metadata.
-The HeroDetailComponent has a hero, not a selected hero. Replace the word, "selectedHero", with the word, "hero", everywhere in the template. When you're done, the new template should look like this:
+The HeroDetailComponent has a hero, not a selected hero. Replace the word, "selectedHero", with the word, "hero", everywhere in the template.
 
 
 Code:
