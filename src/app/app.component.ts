@@ -19,6 +19,7 @@ export class Hero {
       <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
     </ul>
+    <hero-detail [hero]="selectedHero"></hero-detail>
     <div *ngIf="selectedHero">
   <h2>{{selectedHero.name}} details!</h2>
   <div><label>id: </label>{{selectedHero.id}}</div>
