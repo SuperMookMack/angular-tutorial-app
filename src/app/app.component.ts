@@ -74,8 +74,11 @@ import { Hero } from "./hero";
 export class AppComponent {
   title = "Tour of heroes";
   selectedHero: Hero;
-  heroes = HEROES;
+  /*
+  Not sure about this code below...
 
+  heroes = HEROES;
+  */
   onSelect(hero: Hero): void{
     this.selectedHero = hero;
   }
