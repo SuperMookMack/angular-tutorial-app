@@ -10,26 +10,28 @@ import { HeroService } from "./hero.service";
 
 import { RouterModule } from "@angular/router";
 
-RouterModule.forRoot([
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot([
   {
     path: "heroes",
     component: HeroesComponent
   }
-])
+    ])
+    ],
 
-@NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
     HeroesComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
   providers: [
     HeroService
   ],
+  
   bootstrap: [ AppComponent ]
 })
 export class AppModule { 
