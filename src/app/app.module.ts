@@ -25,7 +25,7 @@ import { RouterModule } from "@angular/router";
         component: DashboardComponent
       },
       {
-        path: "detail:id",
+        path: "detail/:id",
         component: HeroDetailComponent
       },
       {

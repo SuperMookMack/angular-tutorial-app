@@ -17,7 +17,6 @@ import { HeroService } from "./hero.service";
     </ul>
     <hero-detail [hero]="selectedHero"></hero-detail>
     <div *ngIf="selectedHero">
-  <div>
 </div>`,
   // templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
